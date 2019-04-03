@@ -32,7 +32,7 @@ public class TicketVendorJava {
     }
 
     public void printInfo() {
-        System.out.print(
+        System.out.println(
                 "Total Tickets: " + ticketQty + "\n" +
                 "Round-trip:" + roundTicketQty + "\n" +
                 "Total: " + priceInTotal());

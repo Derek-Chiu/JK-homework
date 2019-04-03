@@ -5,14 +5,22 @@ import java.util.*
 fun main() {
     val ticket = TicketVendorKotlin(1000, 0.9f)
     val scanner = Scanner(System.`in`)
+    println("Enter -1 to finish")
 
-    print("Please enter number of tickets: ")
-    ticket.setTicketQty(scanner.nextInt())
+    while(true) {
+        print("Please enter number of tickets: ")
+        val totalTicketQty = scanner.nextInt()
+        if (totalTicketQty == -1) {
+            println("Thank you for traveling with Java&Kotlin")
+            break
+        }
+        ticket.setTicketQty(totalTicketQty)
 
-    print("How many round-trip tickets: ")
-    ticket.setRoundTicketQty(scanner.nextInt())
+        print("How many round-trip tickets: ")
+        ticket.setRoundTicketQty(scanner.nextInt())
 
-    ticket.printInfo()
+        ticket.printInfo()
+    }
 }
 
 class TicketVendorKotlin(private val oneWayPrice: Int, private val roundTripDiscount: Float) {
@@ -40,7 +48,7 @@ class TicketVendorKotlin(private val oneWayPrice: Int, private val roundTripDisc
     }
 
     fun printInfo() {
-        print(
+        println(
             "Total Tickets: " + ticketQty + "\n" +
             "Round-trip:" + roundTicketQty + "\n" +
             "Total: " + priceInTotal()
