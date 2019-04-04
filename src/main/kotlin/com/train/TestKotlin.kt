@@ -7,20 +7,22 @@ fun main() {
     val scanner = Scanner(System.`in`)
     println("Enter -1 to finish")
 
-    while(true) {
-        print("Please enter number of tickets: ")
-        val totalTicketQty = scanner.nextInt()
-        if (totalTicketQty == -1) {
-            println("Thank you for traveling with Java&Kotlin")
-            break
-        }
+    print("Please enter number of tickets: ")
+    var totalTicketQty = scanner.nextInt()
+
+    while(totalTicketQty != -1) {
         ticket.setTicketQty(totalTicketQty)
 
         print("How many round-trip tickets: ")
         ticket.setRoundTicketQty(scanner.nextInt())
 
         ticket.printInfo()
+
+        print("Please enter number of tickets: ")
+        totalTicketQty = scanner.nextInt()
     }
+
+    println("Thank you for traveling with Java&Kotlin")
 }
 
 class TicketVendorKotlin(private val oneWayPrice: Int, private val roundTripDiscount: Float) {

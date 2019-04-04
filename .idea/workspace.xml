@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65a91d6-c9bc-4e49-9f29-5ce0dcf1a899" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/homework_main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/train/TestKotlinKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/train/Tester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/train/TicketVendorJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/train/TicketVendorKotlin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/train/TestKotlinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/train/TestKotlinKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/train/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/train/Tester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/train/TicketVendorKotlin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/train/TicketVendorKotlin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/train/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/train/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/train/TicketVendorJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/train/TicketVendorJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/train/TestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/train/TestKotlin.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,8 +30,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/train/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="420">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/train/IntegerTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -45,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/train/TicketVendorJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="380">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#376#377#0" expanded="true" />
                 <element signature="e#412#413#0" expanded="true" />
@@ -69,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,12 +89,15 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/train/TicketVendorKotlin.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/train/TicketVendorJava.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/train/TestKotlin.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/train/IntegerTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/train/Tester.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="834" />
+    <option name="x" value="-1680" />
+    <option name="y" value="-94" />
+    <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +159,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +179,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.train.TestKotlinKt">
+  <component name="RunManager" selected="Application.Tester">
+    <configuration name="IntegerTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.train.IntegerTester" />
+      <module name="homework_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.train.Tester" />
       <module name="homework_main" />
@@ -202,8 +221,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.train.TestKotlinKt" />
         <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.IntegerTester" />
+        <item itemvalue="Kotlin.com.train.TestKotlinKt" />
       </list>
     </recent_temporary>
   </component>
@@ -221,10 +241,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="-1680" y="-94" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25396827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26007327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,17 +276,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/train/TicketVendorKotlin.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/train/TestKotlin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/train/TicketVendorJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="380">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#376#377#0" expanded="true" />
             <element signature="e#412#413#0" expanded="true" />
@@ -274,10 +287,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/train/TestKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/train/IntegerTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/train/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="420">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -8,19 +8,21 @@ public class Tester {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter -1 to finish");
 
-        while(true) {
-            System.out.print("Please enter number of tickets: ");
-            int totalTicketQty = scanner.nextInt();
+        System.out.print("Please enter number of tickets: ");
+        int totalTicketQty = scanner.nextInt();
+
+        while(totalTicketQty != -1) {
             ticket.setTicketQty(totalTicketQty);
-            if (totalTicketQty == -1) {
-                System.out.print("Thank you for traveling with Java&Kotlin");
-                break;
-            }
 
             System.out.print("How many round-trip tickets: ");
             ticket.setRoundTripQty(scanner.nextInt());
 
             ticket.printInfo();
+
+            System.out.print("Please enter number of tickets: ");
+            totalTicketQty = scanner.nextInt();
         }
+
+        System.out.println("Thank you for traveling with Java&Kotlin");
     }
 }
